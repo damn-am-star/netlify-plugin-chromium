@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "npm install",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"group": "none",
+			"problemMatcher": [],
+			"label": "npm: install",
+			"detail": "Install dependencies from package.json"
+		}
+	]
+}
